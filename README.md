@@ -12,4 +12,11 @@ https://www.youtube.com/watch?v=aZIauqUp0oQ&ab_channel=RebeccaJCarlson
 https://pachterlab.github.io/kallistobustools/tutorials/kb_kite/python/kb_kite/
 https://chanzuckerberg.github.io/scRNA-python-workshop/preprocessing/00-tabula-muris.html
       
- 
+The output of this code are multiple graphs as png files: 
+1. violin plot for n_counts of gene and log of n_counts
+2. histogram for cell quality controls
+3. scatter plot where x axis is mean expression of genes and y axis is dispersion of genes (normalized), where second graph has nonnormalized values on y axis
+4. PCA plot of Tnfsf18 
+5. UMAP of Tnfsf4, Tnfsf18, Tnfsf10 (similar gene expression)
+6. clustering by partitioning N cells into k clusters
+7. violin plot of Prex2 and Il17a which exhibit differential expression when computing by leiden algorithm
